@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="yarab2">
+
+ 
+
+    <test name="TimeOut">
+        <classes>
+            <class name="TEST.test" />
+            
+        </classes>
+    </test>
+    
+    <dependency>
+        <groupId>com.github.javafaker</groupId>
+        <artifactId>javafaker</artifactId>
+        <version>0.12</version>
+    </dependency>
+    
+    
+    
+
+</suite>
